@@ -64,11 +64,11 @@
   }
     /* Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpg"); 
-    height: 600px;
+    height: 800px;
     background-size: cover;
     background-position: center;
     position: relative;
+    width: 100%;
   }
 .hero-form {
     border: solid 3px #024e76;
