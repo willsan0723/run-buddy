@@ -10,8 +10,10 @@
   }
   /* apply styles to <header> */
   header {
-    padding: 20px 35 px;
+    padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
   }
 
   header h1 {
@@ -25,8 +27,7 @@
     color: #fce138;
   }
   header nav {
-  float: right;
-    margin: 7px 0;
+      margin: 7px 0;
   }
   header nav ul li {
     display: inline;
