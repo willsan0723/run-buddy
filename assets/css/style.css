@@ -64,7 +64,8 @@
   }
     /* Hero Style Start */
 .hero {
-    height: 800px;
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
