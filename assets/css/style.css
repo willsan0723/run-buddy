@@ -37,7 +37,7 @@
     list-style: none;
   }
   header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
   }
@@ -58,6 +58,7 @@
     background-position: center;
     width: 100%;
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -67,7 +68,7 @@
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
   }
   .hero-cta h2 {
     font-style: italic;
@@ -162,7 +163,7 @@
     color: #024e76;
   }
   .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -293,5 +294,21 @@
     display: flex;
   }
   .flex-row h2 {
+
+  }
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+  }
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+  }
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
 
   }
