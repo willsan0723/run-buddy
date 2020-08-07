@@ -14,6 +14,14 @@
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
   }
 
   header h1 {
@@ -21,6 +29,7 @@
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   header a {
     text-decoration: none;
@@ -40,6 +49,7 @@
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   header h1 {
     font-weight: bold;
@@ -61,6 +71,8 @@
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
+    background-attachment: fixed;
+    background-position: 80%;
   }
   .hero-cta {
     width: 35%;
@@ -74,14 +86,17 @@
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 .hero-form {
     border: solid 3px #024e76;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
   }
   .hero-form h3 {
     margin: 0;
@@ -92,6 +107,7 @@
   }
   .form-input {
     border: 1px solid #024e76;
+    border-radius: 10px;
     display: block;
     padding: 7px 15px;    
     font-size: 16px;
@@ -108,6 +124,7 @@
     color: #fce138;
     border: none;
     padding: 10px 20px;
+    border-radius: 10px;
   }
     /* Hero Styles End */
  
@@ -298,6 +315,7 @@
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
   }
   .contact-form button {
     width: 100%;
@@ -307,6 +325,7 @@
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
   }
   
   /* REACH OUT STYLES END */
@@ -347,11 +366,12 @@
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h1 {
     width: 100%;
-    text-align: center;
+    text-align: center;    
   }
   header nav ul {
     margin-top: 20px;
@@ -359,7 +379,7 @@
     justify-content: center;
   }
   header nav ul li a {
-    font-size: 20px;
+    font-size: 20px;    
   }
   footer h2, footer div {
     text-align: center;
